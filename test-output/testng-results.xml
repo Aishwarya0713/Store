@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-25T17:15:30 IST" name="Default suite" finished-at="2021-06-25T17:16:37 IST" duration-ms="67652">
+    <groups>
+    </groups>
+    <test started-at="2021-06-25T17:15:30 IST" name="Default test" finished-at="2021-06-25T17:16:37 IST" duration-ms="67652">
+      <class name="module1.Category">
+        <test-method is-config="true" signature="bsuite()[pri:0, instance:module1.Category@59505b48]" started-at="2021-06-25T17:15:29 IST" name="bsuite" finished-at="2021-06-25T17:15:30 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsuite -->
+        <test-method signature="category(java.util.HashMap)[pri:0, instance:module1.Category@59505b48]" started-at="2021-06-25T17:15:30 IST" name="category" data-provider="category" finished-at="2021-06-25T17:16:01 IST" duration-ms="30626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Category=Phones, Product1 Name=Samsung galaxy s7, Product1 Price=800.0, Test Id=Valid-4051, Product2 Name=Nokia lumia 1520, Product2 Price=820.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- category -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:module1.Category@59505b48]" started-at="2021-06-25T17:16:01 IST" name="closebrowser" finished-at="2021-06-25T17:16:01 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:module1.Category@59505b48]" started-at="2021-06-25T17:16:01 IST" name="getResult" finished-at="2021-06-25T17:16:01 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=category status=SUCCESS method=Category.category(java.util.HashMap)[pri:0, instance:module1.Category@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="category(java.util.HashMap)[pri:0, instance:module1.Category@59505b48]" started-at="2021-06-25T17:16:01 IST" name="category" data-provider="category" finished-at="2021-06-25T17:16:25 IST" duration-ms="23912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Category=Laptops, Product1 Name=Sony vaio i5, Product1 Price=790.0, Test Id=Valid-4052, Product2 Name=MacBook air, Product2 Price=700.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- category -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:module1.Category@59505b48]" started-at="2021-06-25T17:16:25 IST" name="closebrowser" finished-at="2021-06-25T17:16:25 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:module1.Category@59505b48]" started-at="2021-06-25T17:16:25 IST" name="getResult" finished-at="2021-06-25T17:16:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=category status=SUCCESS method=Category.category(java.util.HashMap)[pri:0, instance:module1.Category@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="category(java.util.HashMap)[pri:0, instance:module1.Category@59505b48]" started-at="2021-06-25T17:16:25 IST" name="category" data-provider="category" finished-at="2021-06-25T17:16:33 IST" duration-ms="8245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Category=Monitors, Product1 Name=Apple monitor 24, Product1 Price=400.0, Test Id=Valid-4053, Product2 Name=ASUS Full HD, Product2 Price=230.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- category -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:module1.Category@59505b48]" started-at="2021-06-25T17:16:33 IST" name="closebrowser" finished-at="2021-06-25T17:16:37 IST" duration-ms="4163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:module1.Category@59505b48]" started-at="2021-06-25T17:16:37 IST" name="getResult" finished-at="2021-06-25T17:16:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=category status=SUCCESS method=Category.category(java.util.HashMap)[pri:0, instance:module1.Category@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aft()[pri:0, instance:module1.Category@59505b48]" started-at="2021-06-25T17:16:37 IST" name="aft" finished-at="2021-06-25T17:16:37 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aft -->
+      </class> <!-- module1.Category -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
